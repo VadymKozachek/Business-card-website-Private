@@ -1,0 +1,128 @@
+/*Онулювання крапок*/
+ol,ul {list-style:none;}
+
+/*Проект*/
+
+body {
+	background: #e8e8e8 url(../Images/ellipse_1_copy_4.png) 50% 130px no-repeat;
+}
+.content {
+	padding: 125px 0 137px 0;
+	max-width: 841px;
+	margin: 0px auto;
+}
+.content-top{
+	text-align: center;
+	margin: 0 0 75px 0;
+}
+
+.content-top-category {
+	opacity: 0.6;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+	color: #273d46;
+	margin: 0 0 15px 0;
+}
+.content-title {
+	font-family: TimesNewPSMT;
+	font-size: 36px;
+	line-height: 50px;
+	font-weight: 400;
+	color: #273d46;
+}
+.content-image {
+	box-shadow: 0px 15px 65px rgba(15, 16, 16, 0.15);
+	background-color: #fff;
+	padding: 15px;
+	margin: 0 0 85px 0;
+}
+.content-image-icon {
+
+}
+.content-image-icon img {
+	max-width: 100%;
+}
+.Content-batton {
+	padding: 0 45px;
+}
+.content-text {
+	opacity: 0.8;
+	font-size: 24px;
+	font-weight: 400;
+	color: #273d46;
+}
+.content-text p {
+	margin: 0 0 40px 0;
+}
+.content-text p:last-child {
+	margin: 0 0 47px 0;
+}
+.Content-batton-info {
+
+}
+.Content-batton-info-list {
+	margin-bottom: 59px;
+	padding-left: 5px;
+} 
+.Content-batton-info-list li {
+	font-family: Arial;
+	font-size: 20px;
+	margin: 0 0 13px 0;
+	background: url(../Images/layers.png) left no-repeat;
+	padding: 0 0 0 35px;
+
+}
+.Content-batton-info-list li:nth-child(1){
+	text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+	color: #273d46;
+
+}	
+.Content-batton-info-list li:nth-child(2){
+	font-style: italic;
+	color: #80b7b3;
+}
+.Content-batton-info-list li:nth-child(3){
+	font-weight: 700;
+	color: #273d46;
+}
+.Content-batton-info-list li:nth-child(4){
+	opacity: 0.3;
+	text-decoration: line-through;
+	color: #273d46;
+}
+.Content-batton-info-list li:nth-child(4) span {
+	
+}
+
+.Content-batton-info-link {
+	height: 44px;
+	display: inline-block;
+	line-height: 44px;
+	padding: 0 30px;
+	border-radius: 24px;
+	background-color: #80b7b3;
+	-webkit-box-shadow: 0px 2px 1px rgba(0 0 0 0.5);
+	box-shadow: 0px 2px 1px rgba(0 0 0 0.5);
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+.Content-batton-info-link span {
+	padding: 0 30px 0 0;
+	background: url(../Images/shape_2_9.png) right no-repeat;
+}
+.Content-batton-info-link:hover{
+	background-color: #dcbfad;
+}
+
+.Content-batton-info-link:active{
+	position: relative;
+	top: 5px;
+	-webkit-box-shadow: 0px 2px 1px rgba(0 0 0 0.5);
+	box-shadow: 0px 2px 1px rgba(0 0 0 0.5);
+	}
